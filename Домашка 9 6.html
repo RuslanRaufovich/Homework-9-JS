@@ -1,0 +1,21 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+                do {
+        let firstNumber = prompt(' Введите первое число');
+        let secondNumber = prompt(' Введите второе число');
+        let operator = prompt(' Введите математический оператор', '+, -, *, /')
+        let answer = eval(`${firstNumber} ${operator} ${secondNumber}`);
+        alert(`Ответ ${answer}`);
+        
+    } while (confirm(' Решить еще один пример?'));
+                
+                
+            </script>
+        </body>
+</html>

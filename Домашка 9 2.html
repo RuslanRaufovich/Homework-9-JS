@@ -1,0 +1,23 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+                  let number1 = Number(prompt('Для нахождения НОД двух чисел введите первую цифру'));
+    let number2 = Number(prompt('Введите вторую цифру'));
+
+    while (number1 != 0 && number2 != 0) {
+        if (number1 > number2) {
+            number1 = number1 % number2;
+        } else {
+            number2 = number2 % number1;
+        };
+    };
+    alert(` Наибольший общий делитель двух указанных чисел равен ${number1 + number2}`);
+                
+            </script>
+        </body>
+</html>

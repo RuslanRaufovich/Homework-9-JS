@@ -1,0 +1,27 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+                  let num1 = Number(prompt('Для подсчета суммы чисел в заданном диапазоне введите начальную цифру диапазона'));
+    let num2 = Number(prompt('Введите конечную цифру'));
+    let sum = 0;
+
+    if (num1 < num2) {
+        while (num1 <= num2) {
+            sum += num1;
+            num1++;
+        };
+    } else if (num1 > num2) {
+        while (num1 >= num2) {
+            sum += num2;
+            num2++;
+        };
+    };
+    alert(`Сумма всех чисел в указанном диапазоне ${sum}`);
+            </script>
+        </body>
+</html>

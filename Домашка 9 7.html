@@ -1,0 +1,17 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+               do {
+        let q = prompt(' Введите число', '1234567890');
+        let move = Number( prompt(' На сколько цифр сдвинуть?') );
+        alert(q.slice(move) + q.slice(0, move));
+
+    } while (confirm(' Еще одно число ?'));
+            </script>
+        </body>
+</html>

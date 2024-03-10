@@ -1,0 +1,21 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+              let tables = [];
+
+    for (let i = 2; i <= 9; i++) {
+        tables.push(`\n Таблица умножения ${i}:\n`);
+        for (let j = 1; j <=10; j++) {
+            tables.push(`${i} * ${j} = ${i*j}; `);
+        };
+    };
+    alert(tables.join(''));
+    console.log(tables.join(''));
+            </script>
+        </body>
+</html>

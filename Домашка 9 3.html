@@ -1,0 +1,21 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+                  let number = Number(prompt(' Введите число'));
+    let divisor = [];
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0 && number !== 1 ) {
+            console.log(i);
+            divisor.push(i);
+        };
+    };
+    alert(`Все делители числа ${number}:  ${divisor}`);
+                
+            </script>
+        </body>
+</html>

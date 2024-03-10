@@ -1,0 +1,23 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+               const days = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+    let currentDay = 0;
+    let nextDay;
+    do {
+        alert(`День недели - ${days[currentDay]}.`);
+        nextDay = confirm(' Хотите увидеть следующий день?');
+        currentDay++;          
+        if (currentDay === days.length) {
+            currentDay = 0;
+        };         
+
+    } while (nextDay);
+            </script>
+        </body>
+</html>

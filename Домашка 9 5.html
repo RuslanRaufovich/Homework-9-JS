@@ -1,0 +1,39 @@
+<!Doctype HTML5>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework JS3</title>
+    </head>
+        <body>
+            <script>
+             let positive = 0;
+    let negative = 0;
+    let zero = 0;
+    let even = 0;
+    let odd = 0;
+
+    for (let i = 1; i <= 10; i++ ) {
+        const num = prompt("Введите число");
+        
+        if (num > 0) {
+        positive++;
+        };
+        if (num < 0) {
+        negative++;
+        };
+        if (num == 0) {
+        zero++;
+        };
+        if (num % 2 == 0) {
+        even++;
+        };
+        if (num % 2 !== 0) {
+        odd++;
+        };
+    };
+
+    alert(` Из введенных цифр - положительных: ${positive}, отрицательных: ${negative}, нулей: ${zero}, четных: ${even}, нечетных: ${odd}.`)
+                
+            </script>
+        </body>
+</html>
